@@ -73,7 +73,7 @@ class SqlEdit(QsciScintilla):
         self.setMarginsBackgroundColor(QColor('#babdb6'))
 
         # Highlight current line
-        self.setCaretLineVisible(True)
+        self.setCaretLineVisible(False)
         self.setCaretLineBackgroundColor(QColor('#d3d7cf'))
 
         # Folding

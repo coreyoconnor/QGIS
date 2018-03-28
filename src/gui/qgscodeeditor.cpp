@@ -87,7 +87,7 @@ void QgsCodeEditor::keyPressEvent( QKeyEvent *event )
 void QgsCodeEditor::setSciWidget()
 {
   setUtf8( true );
-  setCaretLineVisible( true );
+  setCaretLineVisible( false );
   setCaretLineBackgroundColor( QColor( 252, 243, 237 ) );
 
   setBraceMatching( QsciScintilla::SloppyBraceMatch );

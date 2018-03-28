@@ -125,7 +125,7 @@ class ShellOutputScintilla(QsciScintilla):
         self.setMarginLineNumbers(1, True)
         self.setMarginsForegroundColor(QColor("#3E3EE3"))
         self.setMarginsBackgroundColor(QColor("#f9f9f9"))
-        self.setCaretLineVisible(True)
+        self.setCaretLineVisible(False)
         self.setCaretWidth(0)
 
         self.setMinimumHeight(120)

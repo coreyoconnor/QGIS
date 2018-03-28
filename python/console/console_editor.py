@@ -107,7 +107,7 @@ class Editor(QsciScintilla):
         self.setMarginLineNumbers(0, True)
         self.setMarginsForegroundColor(QColor("#3E3EE3"))
         self.setMarginsBackgroundColor(QColor("#f9f9f9"))
-        self.setCaretLineVisible(True)
+        self.setCaretLineVisible(False)
         self.setCaretWidth(2)
 
         self.markerDefine(QgsApplication.getThemePixmap("console/iconSyntaxErrorConsole.png"),
